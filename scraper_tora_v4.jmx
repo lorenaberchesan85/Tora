@@ -267,6 +267,8 @@ if (city==&quot;Cluj&quot;) {city=&quot;Cluj-Napoca&quot;}
 vars.put(&quot;city&quot;,city)
 if (xtowns.length &gt;1) { country = xtowns[1].trim().replace(&quot;Romania&quot;,&quot;România&quot;)}
 if (city==&quot;Tokyo&quot;) {country=&quot;Japan&quot;}
+if (city==&quot;Hong Kong&quot;) {country=&quot;Hong Kong&quot;}
+if (city==&quot;London&quot;) {country=&quot;UK&quot;}
 if (city==&quot;Cluj-Napoca&quot;) {country=&quot;România&quot;}
 if (country==&quot;California&quot;) {country=&quot;United States&quot;}
 if (city==&quot;New York&quot;) {country=&quot;United States&quot;}
